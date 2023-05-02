@@ -95,8 +95,8 @@ git clone https://github.com/osmanwako/mathmagicians.git
 ```
 ### Prerequisites
 
--NodeJS
--Browser
+- NodeJS
+- Browser
 
 In order to run this project you need:
 
@@ -111,9 +111,9 @@ cd mathmagicians
 
 Install project dependencies in this project with:
 
-npx create-react-app mathmagicians
-npm install 
-run your project at npm start
+- npx create-react-app mathmagicians
+- npm install 
+- run your project at npm start
 ### Usage
 
 ### Run tests
