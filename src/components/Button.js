@@ -22,7 +22,7 @@ function Button() {
     { area: 'plusminus', value: '+/-' },
   ];
   const result = lists.map((list) => (
-    <li key={list} className={list.area}>
+    <li key={list.area} className={list.area}>
       {list.value}
     </li>
   ));
