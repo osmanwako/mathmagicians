@@ -7,45 +7,39 @@
   max-width: max-content;
 }
 
-ul {
-  margin: 0;
-  padding: 1px;
-  list-style: none;
-  border: 2px solid #777;
-}
-
 .grid-calculator {
   display: grid;
   grid-template-areas:
     'input input input input'
-    'clear plusminus module divided'
+    'clear sign module divided'
     'seven eight nine times'
     'four five six plus'
     'one two three minus'
-    'zero zero dot equel';
+    'zero zero dot equal';
   grid-gap: 1px;
   background-color: #777;
   padding: 1px;
 }
 
-.grid-calculator > li {
+.grid-calculator > button {
   text-align: center;
   padding: 15px 30px;
   font-size: 15px;
   cursor: pointer;
+  border: none;
 }
 
 .grid-calculator > .input {
   grid-area: input;
   background-color: #858694;
   color: #fff;
-  padding: 10px 20px;
   text-align: right;
-  padding-right: 1px;
+  padding-right: 2px;
+  font-size: 15px;
 }
 
-.equel {
-  grid-area: equel;
+.equal {
+  grid-area: equal;
   background-color: #f5913e;
 }
 
@@ -59,8 +53,8 @@ ul {
   background-color: #e0e0e0;
 }
 
-.plusminus {
-  grid-area: plusminus;
+.sign {
+  grid-area: sign;
   background-color: #e0e0e0;
 }
 
@@ -77,7 +71,6 @@ ul {
 .divided {
   grid-area: divided;
   background-color: #f5913e;
-  content: "\00F7";
 }
 
 .minus {
