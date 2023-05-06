@@ -19,7 +19,7 @@ function Government() {
         setContent(<p>Fail to load data</p>);
       }
     };
-    fetchData();
+    return () => fetchData();
   }, []);
   return content;
 }
