@@ -115,11 +115,17 @@ npx create-react-app mathmagicians
 npm install 
 run your project at npm start
 ### Usage
+Clone this repository to your mathmagicians folder:
+git clone https://github.com/osmanwako/mathmagicians.git
+cd mathmagicians
+npm i
+npm start 
 
 ### Run tests
+npm test
 
 ### Deployment
-
+N/A
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
