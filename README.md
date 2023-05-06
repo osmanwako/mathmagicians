@@ -115,11 +115,17 @@ Install project dependencies in this project with:
 - npm install 
 - run your project at npm start
 ### Usage
+Clone this repository to your mathmagicians folder:
+git clone https://github.com/osmanwako/mathmagicians.git
+cd mathmagicians
+npm i
+npm start 
 
 ### Run tests
+npm test
 
 ### Deployment
-
+N/A
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
