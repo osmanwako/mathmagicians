@@ -116,10 +116,22 @@ Install project dependencies in this project with:
 - run your project at npm start
 ### Usage
 
-### Run tests
+To run the project, execute the following command:
+```sh
+git clone https://github.com/osmanwako/mathmagicians.git
+cd math-magicians
+npm i
+npm start
+```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
+### Run tests
+npm test
 ### Deployment
 
+git clone https://github.com/osmanwako/mathmagicians.git
+cd mathmagicians
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
