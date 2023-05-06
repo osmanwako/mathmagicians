@@ -1,5 +1,5 @@
 .design {
-  min-height: 100vh;
+  max-height: 100vh;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -131,4 +131,10 @@
 .zero {
   grid-area: zero;
   background-color: #e0e0e0;
+}
+
+.desc-message {
+  border: 1px solid #777;
+  margin-top: 20px;
+  padding: 2px 10px;
 }
