@@ -1,17 +1,24 @@
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import NotFound from './components/NotFound';
+import Header from './components/header';
+import Home from './components/Home';
 import Calculator from './components/calculator';
 import Government from './components/government';
+import './App.css';
 
 function App() {
   return (
-    <div>
-      <div className="design">
-        <Calculator />
+    <main>
+      <Header />
+      <div className="math-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/quotes" element={<Government />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </div>
-      <div className="desc-message">
-        <Government />
-      </div>
-    </div>
+    </main>
   );
 }
 

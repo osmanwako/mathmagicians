@@ -1,21 +1,54 @@
-.design {
-  max-height: 100vh;
-  margin: auto;
+.math-container {
+  margin: 5px 20px;
+  line-height: 25px;
+}
+
+.nav-header {
+  padding: 0 20px;
+  background-color: #f4f4f4;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: max-content;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+}
+
+.nav-unorder {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  margin: 10px;
+}
+
+.nav-link {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.design {
+  padding: 0 20px;
+  display: flex;
+  max-width: 992px;
+  max-height: 100vh;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .grid-calculator {
+  max-width: max-content;
   display: grid;
   grid-template-areas:
-    'input input input input'
-    'clear sign module divided'
-    'seven eight nine times'
-    'four five six plus'
-    'one two three minus'
-    'zero zero dot equal';
+    "input input input input"
+    "clear sign module divided"
+    "seven eight nine times"
+    "four five six plus"
+    "one two three minus"
+    "zero zero dot equal";
   grid-gap: 1px;
   background-color: #777;
   padding: 1px;
