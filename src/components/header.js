@@ -1,16 +1,18 @@
+import { Link } from 'react-router-dom';
+
 function Header() {
   return (
     <nav className="nav-header">
       <h1 className="nav-logo">Math Magicians </h1>
       <ul className="nav-unorder">
         <li className="nav-list">
-          <a href="/" className="nav-link">Home</a>
+          <Link to="/" className="nav-link">Home</Link>
         </li>
         <li>
-          <a href="/calculator" className="nav-link">Calculator</a>
+          <Link to="/calculator" className="nav-link">Calculator</Link>
         </li>
         <li>
-          <a href="/quotes" className="nav-link link-quote">Quotes</a>
+          <Link to="/quotes" className="nav-link link-quote">Quotes</Link>
         </li>
       </ul>
     </nav>
