@@ -21,7 +21,7 @@ function Government() {
     };
     return () => fetchData();
   }, []);
-  return content;
+  return <div className="desc-message">{content}</div>;
 }
 
 export default Government;
