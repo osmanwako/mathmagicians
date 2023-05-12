@@ -12,9 +12,9 @@ function App() {
       <Header />
       <div className="math-container">
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/calculator" element={<Calculator />} />
-          <Route path="/quotes" element={<Government />} />
+          <Route path="/" element={<Home />} exact />
+          <Route path="/calculator" element={<Calculator />} exact />
+          <Route path="/quotes" element={<Government />} exact />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
