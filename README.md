@@ -112,6 +112,7 @@ cd mathmagicians
 Install project dependencies in this project with:
 
 - npx create-react-app mathmagicians
+- npm install --save-dev react-test-renderer
 - npm install 
 - run your project at npm start
 ### Usage

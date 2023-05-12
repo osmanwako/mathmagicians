@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home component renders correctly 1`] = `
+<div>
+  <h3>
+    Welcome to Our page
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi laborum quisquam eum ipsam iusto, animi blanditiis aperiam nobis laudantium dolore quas cumque molestias,a perferendis corporis optio repudiandae quia ?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quos quidem iure illo suscipit voluptatum non at laudantium! Eum voluptatibus doloremque voluptate deleniti odio
+      natus qui ex tempore error, dignissimos nostrum!
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi laborum quisquam eum ipsam iusto, animi blanditiis aperiam nobis laudantium dolore quas cumque molestias,a perferendis corporis optio repudiandae quia ?
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quos quidem iure illo suscipit voluptatum non at laudantium! Eum voluptatibus doloremque voluptate deleniti odio
+      natus qui ex tempore error, dignissimos nostrum!
+  </p>
+</div>
+`;
