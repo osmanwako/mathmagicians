@@ -111,7 +111,6 @@ describe('Testing calculations', () => {
     result = calculate(result, '6');
     result = calculate(result, '=');
 
-
     expect(result.total).toBe('-212');
   });
 
