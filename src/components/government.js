@@ -6,20 +6,25 @@ function Government() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const request = await fetch(url, {
+        await fetch(url, {
           method: 'GET',
           headers: {
             'X-Api-Key': 'RiF115CuIMntbblO3YpZIA==qOuhWm1w4FJGZoHW',
             'Content-Type': 'application/json',
           },
+        }).then(async (response) => {
+          if (response.ok) {
+            const data = await response.json();
+            setContent(<p>{data[0].quote}</p>);
+          } else {
+            setContent(<p>Network response was not ok</p>);
+          }
         });
-        const response = await request.json();
-        setContent(<p>{response[0].quote}</p>);
       } catch (error) {
         setContent(<p>Fail to load data</p>);
       }
     };
-    fetchData();
+    return () => fetchData();
   }, []);
   return <div className="desc-message">{content}</div>;
 }
