@@ -82,7 +82,7 @@ This is simple project of to do lists structure example.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- [Live](https://mathmagician-xzkg.onrender.com/) 
+ [See Live ](https://mathmagician-xzkg.onrender.com/) 
 
 <!-- GETTING STARTED -->
 
@@ -112,6 +112,7 @@ cd mathmagicians
 Install project dependencies in this project with:
 
 - npx create-react-app mathmagicians
+- npm install --save-dev react-test-renderer
 - npm install 
 - run your project at npm start
 ### Usage
