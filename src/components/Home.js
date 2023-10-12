@@ -1,7 +1,5 @@
 function getMessage() {
-  const str = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quasi laborum quisquam eum ipsam iusto, animi blanditiis aperiam nobis laudantium dolore quas cumque molestias,a perferendis corporis optio repudiandae quia ?
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.Quos quidem iure illo suscipit voluptatum non at laudantium! Eum voluptatibus doloremque voluptate deleniti odio
-      natus qui ex tempore error, dignissimos nostrum!`;
+  const str = `Sure! Magic Maths is a set of React components that allow you to create interactive and animated visualizations with declarative code. It is a great tool for creating educational content, games, and simulations that involve mathematical concepts. You can use it to create graphs, charts, animations, and more. The components are easy to use and customizable, and they come with a wide range of features such as zooming, panning, and animation controls`;
   return str;
 }
 
